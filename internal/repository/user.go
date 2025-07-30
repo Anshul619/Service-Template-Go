@@ -2,7 +2,7 @@ package repository
 
 import (
 	"context"
-	"sample-service/internal/model"
+	"template-service/internal/model"
 )
 
 type UserRepository interface {

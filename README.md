@@ -1,9 +1,8 @@
-# Microservice-BoilerPlate-Go
+# Service-Template-Go
 
 .
 ├── cmd/                    # Entrypoints for your application (main packages)
-│   └── service/            # `main()` lives here
-│       └── main.go
+│   └── main.go            # `main()` lives here
 ├── internal/               # Private application and library code
 │   ├── config/             # Configuration loading (env, files)
 │   ├── handler/            # HTTP / gRPC / CLI handlers
@@ -21,9 +20,6 @@
 ├── go.mod
 ├── go.sum
 └── README.md
-
-# internal/handler
-
 
 # References
 - [Go Project Layout](https://github.com/golang-standards/project-layout)

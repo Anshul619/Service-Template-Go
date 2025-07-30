@@ -1,4 +1,4 @@
-module sample-service
+module template-service
 
 go 1.20
 

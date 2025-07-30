@@ -3,7 +3,7 @@ package handler
 import (
 	"encoding/json"
 	"net/http"
-	"sample-service/internal/service"
+	"template-service/internal/service"
 )
 
 type UserHandler struct {

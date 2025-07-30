@@ -2,8 +2,8 @@ package service
 
 import (
 	"context"
-	"sample-service/internal/model"
-	"sample-service/internal/repository"
+	"template-service/internal/model"
+	"template-service/internal/repository"
 )
 
 type UserService struct {
