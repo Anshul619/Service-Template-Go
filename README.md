@@ -1,5 +1,6 @@
 # Service-Template-Go
 
+<pre lang="markdown">
 .
 ├── cmd/                    # Entrypoints for your application (main packages)
 │   └── main.go            # `main()` lives here
@@ -20,6 +21,7 @@
 ├── go.mod
 ├── go.sum
 └── README.md
+</pre>
 
 # References
 - [Go Project Layout](https://github.com/golang-standards/project-layout)
