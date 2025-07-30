@@ -1,19 +1,19 @@
 package service
 
 import (
-    "context"
-    "myservice/internal/model"
-    "myservice/internal/repository"
+	"context"
+	"sample-service/internal/model"
+	"sample-service/internal/repository"
 )
 
 type UserService struct {
-    repo repository.UserRepository
+	repo repository.UserRepository
 }
 
 func NewUserService(r repository.UserRepository) *UserService {
-    return &UserService{repo: r}
+	return &UserService{repo: r}
 }
 
 func (s *UserService) GetUser(ctx context.Context, id string) (*model.User, error) {
-    return s.repo.FindByID(ctx, id)
+	return s.repo.FindByID(ctx, id)
 }
