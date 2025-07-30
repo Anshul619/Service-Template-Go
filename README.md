@@ -21,7 +21,12 @@
 ├── go.mod
 ├── go.sum
 └── README.md
+└── pkg/                    # Contains exported packages intended to be used by other applications or external projects.
+└── vendor/                # Holds third-party dependencies, typically copied into your repo using Go Modules (go mod vendor).
+
 </pre>
+
+> Note this is not fully domain driven development layout but its most standard go layout
 
 # References
 - [Go Project Layout](https://github.com/golang-standards/project-layout)
